@@ -1,6 +1,6 @@
 dist: focal
 language: c
 vm:
-  create:
+  use:
     name: 'testimg1'
 script: echo "testtest"

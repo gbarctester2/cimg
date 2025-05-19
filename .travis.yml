@@ -2,5 +2,5 @@ dist: focal
 language: c
 vm:
   create:
-    name: 'testimgx'
+    name: 'testimgx2'
 script: echo "testtest"

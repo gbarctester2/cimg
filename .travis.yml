@@ -7,7 +7,4 @@ script: echo "testtest"
 jobs:
   include:
   - script: echo "xy"
-    vm:
-      create:
-        name: 'c2img8'
   - script: echo "zz"

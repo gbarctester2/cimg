@@ -2,12 +2,12 @@ dist: focal
 language: c
 vm:
   create:
-    name: 'c2img3'
+    name: 'c2img5'
 script: echo "testtest"
 jobs:
   include:
   - script: echo "xy"
     vm:
       create:
-        name: 'c2img4'
+        name: 'c2img6'
   - script: echo "zz"

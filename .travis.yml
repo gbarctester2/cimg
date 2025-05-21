@@ -4,3 +4,6 @@ vm:
   create:
     name: 'testimgx21'
 script: echo "testtest"
+jobs:
+  - script: echo "xy"
+  - script: echo "zz"

@@ -1,13 +1,13 @@
+os: linux
+language: generic
 dist: focal
-language: c
+env:
+  - INDEX=1
+  - INDEX=2
+  - INDEX=3
 vm:
   create:
-    name: 'c2img5'
-script: echo "testtest"
-jobs:
-  include:
-  - script: echo "xy"
-    vm:
-      create:
-        name: 'c2img6'
-  - script: echo "zz"
+    name: should_not_create
+script:
+  - echo $env
+  - sleep 7 

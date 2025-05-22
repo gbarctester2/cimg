@@ -1,5 +1,5 @@
 dist: focal
 language: c
 vm:
-  use: 'testimgx23'
+  use: 'testimgx16'
 script: echo "testtest"

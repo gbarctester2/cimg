@@ -1,6 +1,8 @@
 os: linux
 language: generic
-dist: focal
+dist: 
+- focal
+- bionic
 env:
   - INDEX=1
   - INDEX=2
@@ -9,7 +11,7 @@ env:
   - INDEX=5
 vm:
   create:
-    name: should_not_create6
+    name: should_not_create7
 script:
   - echo $env
   - sleep 7

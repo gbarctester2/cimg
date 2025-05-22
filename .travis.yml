@@ -9,7 +9,7 @@ env:
   - INDEX=5
 vm:
   create:
-    name: should_not_create4
+    name: should_not_create5
 script:
   - echo $env
   - sleep 7

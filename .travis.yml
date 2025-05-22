@@ -1,4 +1,6 @@
-os: linux
+os: 
+- linux
+- freebsd
 language: generic
 dist: 
 - focal
@@ -11,7 +13,7 @@ env:
   - INDEX=5
 vm:
   create:
-    name: should_not_create7
+    name: should_not_create8
 script:
   - echo $env
   - sleep 7

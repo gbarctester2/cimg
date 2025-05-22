@@ -9,11 +9,9 @@ env:
   - INDEX=1
   - INDEX=2
   - INDEX=3
-  - INDEX=4
-  - INDEX=5
 vm:
   create:
-    name: should_not_create8
+    name: should_not_create9
 script:
   - echo $env
   - sleep 7

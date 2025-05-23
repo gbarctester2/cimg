@@ -1,5 +1,5 @@
 dist: jammy
 language: c
 vm:
-  use: 'testimgx34'
+  use: 'testimgx36'
 script: echo "testtest"

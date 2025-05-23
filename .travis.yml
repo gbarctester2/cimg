@@ -1,6 +1,6 @@
 dist: jammy
 language: c
 vm:
-  use: 
+  create: 
     name: 'testimgx_f1'
 script: echox dfsfs

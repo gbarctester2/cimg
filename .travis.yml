@@ -2,5 +2,5 @@ dist: jammy
 language: c
 vm:
   use: 
-    name: 'testimgx39'
-script: echo "testtest"
+    name: 'testimgx_f1'
+script: echox dfsfs

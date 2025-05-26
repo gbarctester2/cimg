@@ -2,5 +2,5 @@ dist: jammy
 language: c
 vm:
   create: 
-    name: 'testimgx_f1'
+    name: 'testimgx_f2'
 script: echox dfsfs

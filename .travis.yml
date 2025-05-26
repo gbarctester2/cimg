@@ -3,4 +3,4 @@ language: c
 vm:
   use: 
     name: 'testimgx39'
-script: echo "testtestx"
+script: echo "testtestxx"

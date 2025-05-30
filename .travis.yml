@@ -5,7 +5,7 @@ jobs:
   include:
   - vm:
       create:
-        name: 'testimg_c1'
+        name: 'testimg_c2'
   - vm: 
       use: 
-        name: 'testimg_c1'
+        name: 'testimg_c2'

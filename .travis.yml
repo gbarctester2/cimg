@@ -2,5 +2,5 @@ dist: jammy
 language: c
 vm:
   use: 
-    name: 'testimgx39'
+    name: 'testimgx397'
 script: echo "testtestxx"

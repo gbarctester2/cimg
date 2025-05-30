@@ -1,11 +1,15 @@
-dist: jammy
-language: c
-script: echo "testtestxx"
-jobs:
-  include:
-  - vm:
-      create:
-        name: 'testimg_c2'
-  - vm: 
-      use: 
-        name: 'testimg_c2'
+  jobs:
+    include:
+      - stage: create image
+        os: linux
+        dist: focal
+        language: generic
+        vm:
+          create:
+            name: testimg_c3
+  
+      - stage: use custom image
+        vm:
+          use: testimg_c3
+        script:
+          - echo "Running job with custom image"

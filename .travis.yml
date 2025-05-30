@@ -1,6 +1,8 @@
 dist: jammy
 language: c
 vm:
+  create:
+    name: 'testimg_c1'
   use: 
-    name: 'testimgx397'
+    name: 'testimg_c1'
 script: echo "testtestxx"

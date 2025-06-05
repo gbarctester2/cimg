@@ -5,16 +5,16 @@ jobs:
   include:
   - vm:
       create:
-        name: 'testimg_v1'
+        name: 'testimg_v11'
   - vm:
       create:
-        name: 'testimg_v2'
+        name: 'testimg_v21'
   - vm:
       create:
-        name: 'testimg_v3'
+        name: 'testimg_v31'
   - vm:
       create:
-        name: 'testimg_v4'
+        name: 'testimg_v41'
   - vm:
       create:
-        name: 'testimg_v5'
+        name: 'testimg_v51'

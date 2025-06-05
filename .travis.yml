@@ -1,6 +1,20 @@
 dist: focal
 language: c
-vm:
-  create:
-    name: 'testimgx397'
 script: echo "testtest"
+jobs:
+  include:
+  - vm:
+      create:
+        name: 'testimg_v1'
+ - vm:
+      create:
+        name: 'testimg_v2'
+ - vm:
+      create:
+        name: 'testimg_v3'
+ - vm:
+      create:
+        name: 'testimg_v4'
+ - vm:
+      create:
+        name: 'testimg_v5'

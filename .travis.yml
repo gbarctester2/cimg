@@ -2,6 +2,6 @@ dist: focal
 language: c
 vm:
   create:
-    name: 'c2img4297'
-script: echo "testtest"
+    name: 'c2img42971'
+script: echo "testtest" && echo $TRAVIS_BUILD_DIR
 
